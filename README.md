@@ -33,7 +33,7 @@ cd ascii-player-terminal
 
 ## Running the player
 ```bash
-python3 main.py --cols 140 --fps 30 --color
+python3 main.py --cols 140 --fps 30 --color # example - check command line options for more
 ```
 
 ## Command-line options
