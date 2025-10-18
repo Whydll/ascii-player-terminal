@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 ascii_player_sync_audio.py
 Terminal ASCII video player with synchronized audio.
@@ -11,10 +10,6 @@ If source is omitted, lists files in videos/ and asks for selection.
 Dependencies:
   - ffmpeg, ffprobe, ffplay
   - numpy
-
-Install on Debian/Ubuntu:
-  sudo apt install ffmpeg
-  pip install numpy
 """
 import argparse, subprocess, sys, os, shutil, time, threading, termios, tty, select, glob
 import numpy as np
