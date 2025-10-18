@@ -1,28 +1,28 @@
 # 🎞️ ASCII Player - Terminal
 
-**ASCII Player** is a terminal-based app that converts videos into live-streamed ASCII characters.
+**ASCII Player** is a terminal-based application that converts videos into live-streamed ASCII characters, complete with optional audio playback and color support.
 
 ---
 
 ## 🚀 Features
 
-- 🎬 Plays videos as animated ASCII characters in real time
-- ⚙️ Adjustable width, FPS,
-- 📂 You can upload your own videos
-- 💾 Save current ASCII frame as `.txt`
-- 🌐 Written in py
+- 🎬 Play videos as animated ASCII characters in real time
+- ⚙️ Adjustable width (columns), FPS, and character set
+- 📂 Upload and play your own videos
+- 💾 Save the current ASCII frame as a `.txt` file
+- 🌈 Optional colorized output
+- 🌐 Written in Python
 
 ---
 
-## Requirements
+## 🛠 Requirements
 
-- Python 3.8+
+- **Python 3.8+**
+- **FFmpeg, ffprobe, ffplay** (for video processing and audio playback)
 
-- FFmpeg, ffprobe, ffplay (for video processing and audio playback)
+### Installation
 
-## Install
-
-Clone the repo
+Clone the repository:
 
 ```bash
 git clone https://github.com/Whydll/ascii-player-terminal
