@@ -19,7 +19,7 @@
 
 ## Requirements
 
-- **Python 3.8+**
+- **Python 3+**
 - **FFmpeg, ffprobe, ffplay** (for video processing and audio playback)
 
 ### Installation
