@@ -2,7 +2,7 @@
 
 **ASCII Player** is a terminal-based application that converts videos into live-streamed ASCII characters, complete with optional audio playback and color support.
 
-![ascii](./videos/ascii.gif)
+<img src="./videos/ascii.gif" width="200" alt="ASCII Player Demo">
 
 ---
 
@@ -40,13 +40,13 @@ chmod +x main.py
 then
 
 ```bash
-./main.py
+./main.py --cols 140 --fps 30 --color
 ```
 
 or
 
 ```bash
-python3 main.py
+python3 main.py --cols 140 --fps 30 --color
 ```
 
 ## Command-line options
