@@ -2,9 +2,7 @@
 
 **ASCII Player** is a terminal-based application that converts videos into live-streamed ASCII characters, complete with optional audio playback and color support.
 
-![ascii](https://github.com/user-attachments/assets/64138c31-23d7-4281-b2ba-20d2d6e9c3a3)
-
-
+![ascii](./videos/ascii.gif)
 
 ---
 
