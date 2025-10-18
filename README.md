@@ -32,6 +32,11 @@ cd ascii-player-terminal
 ```
 
 ## Running the player
+```bash
+python3 main.py --cols 140 --fps 30 --color
+```
+
+or
 
 ```bash
 chmod +x main.py
@@ -40,14 +45,9 @@ chmod +x main.py
 then
 
 ```bash
-./main.py --cols 140 --fps 30 --color
+./main.py --cols 140 --fps 30 --color # example - check command line options for more
 ```
 
-or
-
-```bash
-python3 main.py --cols 140 --fps 30 --color
-```
 
 ## Command-line options
 
