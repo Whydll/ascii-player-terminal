@@ -2,7 +2,7 @@
 
 **ASCII Player** is a terminal-based application that converts videos into live-streamed ASCII characters, complete with optional audio playback and color support.
 
-<img src="./videos/ascii.gif" width="200" alt="ASCII Player Demo">
+<img src="./videos/ascii.gif" width="300" alt="ASCII Player Demo">
 
 ---
 
@@ -81,4 +81,4 @@ python main.py --cols 140 --fps 30 --color
 
 ## ⚖️ License
 
-Distributed under the MIT License. See [LICENSE.txt](https://github.com/Whydll/ascii-player-terminal/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE.txt](./LICENSE) for more information.
