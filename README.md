@@ -79,6 +79,10 @@ python main.py --cols 140 --fps 30 --color
 | `p`         | Toggle color / monochrome                     |
 | `w`         | Save current ASCII frame to `ascii_saved.txt` |
 
+## Color Support Notice
+
+- The colorized output relies on your terminal's truecolor support. Some terminals may **not display colors correctly** or may show only basic 16/256 colors. If colors look incorrect, try disabling color output.
+
 ## ⚖️ License
 
 Distributed under the MIT License. See [LICENSE.txt](./LICENSE) for more information.
