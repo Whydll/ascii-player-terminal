@@ -86,3 +86,5 @@ python main.py --cols 140 --fps 30 --color
 ## ⚖️ License
 
 Distributed under the MIT License. See [LICENSE.txt](./LICENSE) for more information.
+
+## [Web Version](https://github.com/Whydll/ascii-player)
