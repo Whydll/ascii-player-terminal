@@ -36,19 +36,6 @@ cd ascii-player-terminal
 python3 main.py --cols 140 --fps 30 --color
 ```
 
-or
-
-```bash
-chmod +x main.py
-```
-
-then
-
-```bash
-./main.py --cols 140 --fps 30 --color # example - check command line options for more
-```
-
-
 ## Command-line options
 
 - --cols : Number of columns (width) in terminal
