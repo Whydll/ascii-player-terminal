@@ -2,7 +2,7 @@
 
 **ASCII Player** is a terminal-based application that converts videos into live-streamed ASCII characters, complete with optional audio playback and color support.
 
-![ascii](./videos/ascii.gif)
+<img src="./videos/ascii.gif" width="300" alt="ASCII Player Demo">
 
 ---
 
@@ -40,13 +40,13 @@ chmod +x main.py
 then
 
 ```bash
-./main.py
+./main.py --cols 140 --fps 30 --color
 ```
 
 or
 
 ```bash
-python3 main.py
+python3 main.py --cols 140 --fps 30 --color
 ```
 
 ## Command-line options
@@ -79,6 +79,12 @@ python main.py --cols 140 --fps 30 --color
 | `p`         | Toggle color / monochrome                     |
 | `w`         | Save current ASCII frame to `ascii_saved.txt` |
 
+## Color Support Notice
+
+- The colorized output relies on your terminal's truecolor support. Some terminals may **not display colors correctly** or may show only basic 16/256 colors. If colors look incorrect, try disabling color output.
+
 ## ⚖️ License
 
-Distributed under the MIT License. See [LICENSE.txt](https://github.com/Whydll/ascii-player-terminal/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE.txt](./LICENSE) for more information.
+
+### [Web Version](https://github.com/Whydll/ascii-player)
